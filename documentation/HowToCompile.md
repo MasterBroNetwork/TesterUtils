@@ -1,5 +1,7 @@
 # How to compile TesterUtils
 
+**Note**: Other IDE compilation instructions aren't done, if you wish to contribute to this file with the instructions to compile TesterUtils on other IDEs then feel free to do so.
+
 (IntelliJ IDEA)
 1. Go to Run > Edit Configurations and add a new **Maven** configuration called TesterUtils build.
 2. In the configuration, find where it says Run and then type **clean package** (Make sure the working directory is set to TesterUtils)
@@ -15,3 +17,4 @@ This will create a new .jar file named after your artifact in a new folder calle
 If you have successfully followed the steps then you have compiled a new .jar file ready to put in your server's plugins folder and you're done.
 
 **Note**: You will need to go to Build > Build Artifacts and then click Rebuild any time you want to recompile the .jar file after making changes.
+
