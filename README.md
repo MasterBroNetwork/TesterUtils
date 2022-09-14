@@ -9,3 +9,5 @@ Credit isn't necessary but is always appreciated!\
 # Documentation
 [Command Permissions](documentation/Permissions.md)\
 [Command Descriptions](documentation/Descriptions.md)
+
+[Compilation Instructions](documentation/HowToCompile.md)
