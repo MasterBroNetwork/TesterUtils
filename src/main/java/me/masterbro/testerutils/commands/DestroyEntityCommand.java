@@ -41,12 +41,6 @@ public class DestroyEntityCommand implements CommandExecutor {
                 return true;
             }
 
-//            if(/** Check if entity type exists at all. **/) {
-//                player.sendMessage("Error: The entity type that was specified doesn't exist.");
-//                player.sendMessage("Please check the spelling and try again.");
-//                return true;
-//            }
-
             World world = Bukkit.getWorld(worldName);
 
             Integer entityCount = 0;
