@@ -1,0 +1,54 @@
+name: TesterUtils
+version: '${project.version}'
+main: me.masterbro.testerutils.TesterUtils
+api-version: 1.19
+prefix: TesterUtils
+authors: [ MasterBroNetwork ]
+description: A plugin designed to help with testing your server by providing several utility commands.
+website: https://github.com/MasterBroNetwork/TesterUtils
+commands:
+  fly:
+    description: Toggles flight for the user.
+    usage: /fly
+    aliases: [flight]
+    permission: testerutils.command.fly
+  health:
+    description: Sets the user's health to the number provided.
+    usage: /health <number>
+    aliases: [hp, hitpoints]
+    permission: testerutils.command.health
+  god:
+    description: Toggles invulnerability for the user.
+    usage: /god
+    aliases: [invulnerable, invulnerability, godmode]
+    permission: testerutils.command.god
+  speed:
+    description: Sets the user's speed to the number provided.
+    usage: /speed <number>
+    aliases: [movespeed]
+    permission: testerutils.command.speed
+  armor:
+    description: Sets the user's armor to the number provided.
+    usage: /armor <number>
+    aliases: [defense, defence]
+    permission: testerutils.command.armor
+  knockback:
+    description: Toggles knockback for the user.
+    usage: /knockback
+    aliases: [kb, antikb, toggleknockback, togglekb, noknockback, nokb]
+    permission: testerutils.command.knockback
+  attackdamage:
+    description: Sets the user's attack damage to the number provided.
+    usage: /attackdamage <number>
+    aliases: [damage, atk, attack]
+    permission: testerutils.command.attackdamage
+  attackspeed:
+    description: Sets the user's attack speed to the number provided.
+    usage: /attackspeed <number>
+    aliases: [ atkspeed ]
+    permission: testerutils.command.attackspeed
+  destroyentity:
+    description: Completely destroys the entity specified.
+    usage: /destroyentity <worldName> <entityType>
+    aliases: [ wipeout, eradicate ]
+    permission: testerutils.command.destroyentity
