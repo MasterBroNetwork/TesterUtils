@@ -4,9 +4,9 @@ import me.masterbro.testerutils.commands.*;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-/** This plugin was designed by MasterBro Network (MasterBroNetwork) under the MIT License.
+/** This plugin was designed by MasterBro Network (MasterBroNetwork) under the Apache 2.0 License.
     https://github.com/MasterBroNetwork/TesterUtils
-    https://choosealicense.com/licenses/mit/
+    https://choosealicense.com/licenses/apache-2.0/
 
     You are free to remove this comment from the code if you want to.
     Credit isn't necessary but is appreciated. (Be sure to link the GitHub repository if you credit the original source.) **/
