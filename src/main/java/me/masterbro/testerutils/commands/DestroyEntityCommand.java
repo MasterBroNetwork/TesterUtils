@@ -13,19 +13,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DestroyEntityCommand implements CommandExecutor {
+    private boolean entityTypeExists(String string) {
+        try {
+            EntityType.valueOf(string);
+            return true;
+        } catch(IllegalArgumentException exception) {
+            return false;
+        }
+    }
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(!(sender instanceof Player)) {
-            sender.sendMessage("This command can only be used in-game.");
-            return true;
-        }
-
         Player player = (Player) sender;
 
         if(args.length == 0) {
             player.sendMessage("Error: No arguments provided.");
             player.sendMessage("Correct usage: /destroyentity <worldName> <entityType>");
         } else {
+
+            if(!entityTypeExists(args[1])) {
+                player.sendMessage("Error: The entity type that was specified doesn't exist.");
+                player.sendMessage("Please check the spelling and try again.");
+                return true;
+            }
 
             EntityType entityType = EntityType.valueOf(args[1]);
 
