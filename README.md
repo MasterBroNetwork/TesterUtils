@@ -1,5 +1,5 @@
 # TesterUtils
-An open-source Paper 1.19.2 plugin designed to make testing generally easier by providing helpful utility commands and features.
+An open-source Paper/Spigot 1.19.2 plugin designed to make testing generally easier by providing helpful utility commands and features.
 
 This plugin uses the Apache 2.0 License, Information can be found here: [License](/LICENSE)
 
